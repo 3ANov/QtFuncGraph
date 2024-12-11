@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/pics">
+        <file>resource/func_pic.png</file>
+    </qresource>
+</RCC>
