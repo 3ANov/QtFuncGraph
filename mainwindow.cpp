@@ -54,8 +54,7 @@ void MainWindow::on_pushButton_clicked()
     chart->setTitle("Кусочная функция");
     chart->legend()->setAlignment(Qt::AlignBottom);
 
-    // Создаём QChartView для отображения QChart
-    QChartView* chartView = new QChartView(chart);
+    chartView = new QChartView(chart);
     chartView->setRenderHint(QPainter::Antialiasing); // Улучшение качества отрисовки
 
     chartView->setFixedSize(ui->graphicsView->viewport()->size());

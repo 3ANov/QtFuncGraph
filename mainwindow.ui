@@ -10,6 +10,18 @@
     <height>524</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>576</width>
+    <height>524</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>576</width>
+    <height>524</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Контрольная работа №1_1 (Вариант 1)</string>
   </property>
